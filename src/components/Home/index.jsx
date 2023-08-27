@@ -6,7 +6,7 @@ const Home = () => {
     
     return (
         <div className="container home-page">
-            <div className="text-zone"></div>
+            <div className="text-zone">
                 <h1>Hi, <br /> `I`m
                 <img src={LogoTitle} alt="developer" />
                 lobodan
@@ -15,6 +15,7 @@ const Home = () => {
                 </h1>
                 <h2>Frontend Developer / JavaScript Expert / Youtuber</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+                </div>
         </div>
     )
 }
