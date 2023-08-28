@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import {
-    faAngular,
     faCss3,
     faGitAlt,
     faHtml5,
     faJsSquare,
     faReact,
+    faLinkedin,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
@@ -51,7 +51,7 @@ const About = () => {
             <div className="stage-cube-cont">
             <div className="cubespinner">
                 <div className="face1">
-                <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+                <FontAwesomeIcon icon={faLinkedin} color="#0077b5" />
                 </div>
                 <div className="face2">
                 <FontAwesomeIcon icon={faHtml5} color="#F06529" />
