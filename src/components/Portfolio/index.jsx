@@ -15,11 +15,11 @@ const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     
 
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //     setLetterClass('text-animate-hover')
-    //     }, 3000)
-    // }, [])
+    useEffect(() => {
+        setTimeout(() => {
+            return setLetterClass('text-animate-hover')
+        }, 3000)
+    }, [])
 
 
     return (
@@ -29,7 +29,7 @@ const Portfolio = () => {
             <h1>
                 <AnimatedLetters
                 letterClass={letterClass}
-                strArray={['P', 'o', 'r', 't', 'f', 'o', 'l', 'o']}
+                strArray={['P', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o']}
                 idx={15}
                 />
             </h1>
@@ -50,37 +50,37 @@ const Portfolio = () => {
                         <div className="magic-wall_item lazyload"></div>
                             <img src={BaseballO} alt='image'></img>
                         <div className="hover-content"></div>
-                        <a href='#' className='colorbox'></a>
+                        <a href='https://jako0320.github.io/baseball_statsandodds/' className='colorbox'></a>
                     </li>
                     <li>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={ProdPal} alt='image'></img>
                         <div className="hover-content"></div>
-                        <a href='#' className='colorbox'></a>
+                        <a href='https://glacial-thicket-98751-ead1051b20e4.herokuapp.com/login' className='colorbox'></a>
                     </li>
                     <li>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={NoteTaker} alt='image'></img>
                         <div className="hover-content"></div>
-                        <a href='#' className='colorbox'></a>
+                        <a href='https://notetakerzzz-f979f98b76f3.herokuapp.com/' className='colorbox'></a>
                     </li>
                     <li>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={TechBlog} alt='image'></img>
                         <div className="hover-content"></div>
-                        <a href='#' className='colorbox'></a>
+                        <a href='https://inspire-tech-blog-9d94a91a774d.herokuapp.com/' className='colorbox'></a>
                     </li>
                     <li>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={WeatherDash} alt='image'></img>
                         <div className="hover-content"></div>
-                        <a href='#' className='colorbox'></a>
+                        <a href='https://gregnasir.github.io/weather-dashboard/' className='colorbox'></a>
                     </li>
                     <li>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={WorkDay} alt='image'></img>
                         <div className="hover-content"></div>
-                        <a href='#' className='colorbox'></a>
+                        <a href='https://gregnasir.github.io/work-day-scheduler/' className='colorbox'></a>
                     </li>
 
                 </ul>

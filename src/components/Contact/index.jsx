@@ -11,11 +11,11 @@ const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef()
 
-    // useEffect(() => {
-    //     return setTimeout(() => {
-    //     setLetterClass('text-animate-hover')
-    //     }, 3000)
-    // }, [])
+    useEffect(() => {
+        setTimeout(() => {
+            return setLetterClass('text-animate-hover')
+        }, 3000)
+    }, [])
 
     const sendEmail = (e) => {
         e.preventDefault()
@@ -44,10 +44,8 @@ const Contact = () => {
                 idx={15}
                 />
             </h1>
-            <p>
-                I am interested in freelance opportunities - especially on ambitious
-                or large projects. However, if you have any other requests or
-                questions, don't hesitate to contact me using below form either.
+            <p id='contact-text'>
+                Feel free to contact me for any web delevopment oppourtunites, or collaborations.
             </p>
             <div className="contact-form">
                 <form ref={form} onSubmit={sendEmail}>
@@ -86,14 +84,13 @@ const Contact = () => {
             </div>
             </div>
             <div className="info-map">
-            Slobodan Gajić,
+            Gregory Williams,
             <br />
-            Serbia,
+            Atlanta, GA,
             <br />
-            Branka RadiČevića 19, 22000 <br />
-            Sremska Mitrovica <br />
+            United States of America <br />
             <br />
-            <span>freelancerslobodan@gmail.com</span>
+            <span>gregoryo.rwilliams@gmail.com</span>
             </div>
             <div className="map-wrap">
             <MapContainer center={[50.5, 30.5]} zoom={13}>
