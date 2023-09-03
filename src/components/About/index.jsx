@@ -33,19 +33,24 @@ const About = () => {
                 />
             </h1>
             <p>
-                I'm a very ambitious front-end developer looking for a role in an
-                established IT company with the opportunity to work with the latest
-                technologies on challenging and diverse projects.
+                Technology excites me! Seeing a project go from a simple idea, to wire frame, then taking
+                the leap to initiate code, and seeing the product take shape, has always been wonderful experience. 
+                As a certified Full-Stack Developer, using and learning new methods to create unique and pleasurable 
+                experiences for others, motivates my eagerness to commit myself to any opportunities in which
+                I am involved. 
+                <br/>
+                <br/>
+                With the knowledge I have garnered and my ambition to become a great developer, I am open to 
+                roles, where I can hone and excercise my tech development capabilities. As a team player, 
+                I enjoy brainstorming with peers, to come up with the best solutions and codes, to ultimately 
+                achieve our projects goals.
+                <br/>
+                <br/>
+                I am an avid sports fan, and a big supporter of Chelsea Football Club. Fun fact: this portfolio 
+                is actually Chelsea blue. Traveling is one of my favorite hobbies, and taking trips to attend 
+                games, comes second only to my love and admiration for technology and its creative process.
             </p>
-            <p align="LEFT">
-                I'm quiet confident, naturally curious, and perpetually working on
-                improving my chops one design problem at a time.
-            </p>
-            <p>
-                If I need to define myself in one sentence that would be a family
-                person, father of a beautiful daughter, a sports fanatic,
-                photography enthusiast, and tech-obsessed!!!
-            </p>
+            
             </div>
 
             <div className="stage-cube-cont">

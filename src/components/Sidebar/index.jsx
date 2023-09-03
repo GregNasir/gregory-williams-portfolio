@@ -8,9 +8,12 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
     <div className='nav-bar'>
-        <Link className='logo' to='/'>
-            <img src={LogoS} alt="logo" />
-            <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+        {/* <Link className='logo' to='/'> */}
+        <Link className='Nav-name' to='/'>
+            {/* <img src={LogoS} alt="logo" /> */}
+            <p>Gregory</p>
+            <p>Williams</p>
+            {/* <img className="sub-logo" src={LogoSubtitle} alt="slobodan" /> */}
         </Link>
         <nav>
             <NavLink   

@@ -1,4 +1,8 @@
 .home-page {
+    margin-left: 20%;
+    text-align: center;
+       
+
     .text-zone {
         position: absolute;
         left: 10%;
@@ -6,6 +10,8 @@
         transform: translateY(-50%);
         width: 40%;
         max-height: 90%;
+        vertical-align: middle;
+        
         }
     
         h1 {
@@ -72,6 +78,8 @@
         float: left;
         animation: fadeInAnimation 1s 1.8s backwards;
         white-space: nowrap;
+        margin-left: 40%;
+    text-align: center;
     
         &:hover {
             background: #ffd700;
@@ -79,10 +87,30 @@
         }
         }
     }
+
+    // $primary-color: $my-brand-color;
+@import 'loaders.css/src/animations/ball-clip-rotate-pulse.scss';
+
+.loader-hidden {
+    display: none;
+}
+.loader-active {
+    display: block;
+}
+
+    
     
     
     
     @media screen and (max-width: 1200px) {
+
+
+        .home-page {
+            display: flex;
+            justify-content: center;
+        }
+
+
         .tags,
         .home-page h1:before,
         .home-page h1:after {
@@ -95,6 +123,8 @@
         transform: none;
         padding: 10px;
         box-sizing: border-box;
+        
+        
         }
     
         .home-page .flat-button {
