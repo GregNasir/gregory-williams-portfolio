@@ -45,7 +45,7 @@ const Contact = () => {
                 />
             </h1>
             <p id='contact-text'>
-                Feel free to contact me for any web delevopment oppourtunites, or collaborations.
+                For any inquires in regard to web development.
             </p>
             <div className="contact-form">
                 <form ref={form} onSubmit={sendEmail}>
@@ -96,12 +96,13 @@ const Contact = () => {
             <MapContainer center={[50.5, 30.5]} zoom={13}>
                 <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                 <Marker position={[50.5, 30.5]}>
-                <Popup>Sloba lives here, come over for a cup of coffee :</Popup>
+                <Popup>Gregory lives in Atlanta, Georgia :</Popup>
                 </Marker>
             </MapContainer>
             </div>
         </div>
-        <Loader type="pacman" />
+        {/* <Loader type="pacman" /> */}
+        <Loader type="ball-clip-rotate-pulse" />
         </>
     )
 }

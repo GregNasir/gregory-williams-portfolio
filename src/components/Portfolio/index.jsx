@@ -34,9 +34,9 @@ const Portfolio = () => {
                 />
             </h1>
             <p>
-                I am interested in freelance opportunities - especially on ambitious
-                or large projects. However, if you have any other requests or
-                questions, don't hesitate to contact me using below form either.
+                Below please find a some of the projects, I have worked on individually, 
+                or as part of a group of developers. My GitHub repository can also
+                be accessed <a href="https://github.com/GregNasir" className='github-link'>here</a>
             </p>
             
             
@@ -88,7 +88,8 @@ const Portfolio = () => {
         </div>
             
         </div>
-        <Loader type="pacman" />
+        {/* <Loader type="pacman" /> */}
+        <Loader type="ball-clip-rotate-pulse" />
         </>
     )
 }

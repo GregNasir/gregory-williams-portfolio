@@ -31,7 +31,8 @@ const Resume = () => {
 
         
         </div>
-        <Loader type="pacman" />
+        {/* <Loader type="pacman" /> */}
+        <Loader type="ball-clip-rotate-pulse" />
         </>
     )
 }
