@@ -4,6 +4,8 @@ import Loader from 'react-loaders';
 // import LogoTitle from '../../assets/images/logo-s.png';
 import AnimatedLetters from '../AnimatedLetters';
 // import Logo from './Logo';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './index.scss';
 
 
@@ -43,6 +45,42 @@ const Home = () => {
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>
                 {/* <Logo /> */}
+
+                <footer className="footer">
+
+                    {/* <ul className='linkedin-github'>
+                <li>
+                <a
+                    href="https://www.linkedin.com/in/gregory-o-williams-22361b1b4/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FontAwesomeIcon
+                    icon={faLinkedin}
+                    color="#4d4d4e"
+                    className="anchor-icon"
+                    />
+                </a>
+                </li>
+                <li>
+                <a
+                    href="https://github.com/GregNasir"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FontAwesomeIcon
+                    icon={faGithub}
+                    color="#4d4d4e"
+                    className="anchor-icon"
+                    />
+                </a>
+                </li>
+                
+            </ul> */}
+
+                  <h3>Portfolio &copy; COPYRIGHT 2023 Gregory Williams.</h3>
+                  
+                </footer>
                 
         </div>
 

@@ -80,8 +80,24 @@
         }
     }
 
+    .about-page .text-zone p{
+        font-size: 25px;
+        // margin-top: 50px;
+    }
 
-    @media screen and (max-width: 960px) {
+    .text-zone {
+        margin-top: 100px;
+    }
+
+
+    .about-page .profile-pic {
+        // background-color: red;
+        margin-left: 260px;
+        // margin-bottom: 200px;
+    }
+
+
+    @media screen and (max-width: 1200px) {
 
         .stage-cube-cont {
             width: 100%;
@@ -94,10 +110,13 @@
         }
 
 
-        .text-zone {
-            margin-bottom: -120px;
-    
-        
-            
+        .about-page .text-zone p {
+            font-size: 15px;
         }
+    }
+
+    .profile-pic {
+        // background-color: red;
+        margin-left: 20px;
+        // margin-bottom: 200px;
     }

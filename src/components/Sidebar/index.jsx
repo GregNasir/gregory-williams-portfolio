@@ -6,13 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
     faLinkedin,
     faGithub,
-    faYoutube,
-    faSkype,
     } from '@fortawesome/free-brands-svg-icons'
     import {
     faHome,
     faUser,
     faEnvelope,
+    faFile,
     faSuitcase,
     faBars,
     faClose,
@@ -28,7 +27,7 @@ import {
             className="portfolio-name"
             to="/"
             onClick={() => setShowNav(false)}>
-               
+            
                     <p>Gregory Williams</p>
                
                 {/* <p className='portfolio-name'>Gregory Williams</p> */}
@@ -38,37 +37,48 @@ import {
         <nav className={showNav ? 'mobile-show' : ''}>
 
             <NavLink 
-            exact="true"
-            activeclassname="active"
-            to="/"
-            onClick={() => setShowNav(false)}>
-            <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+                exact="true"
+                activeclassname="active"
+                to="/home"
+                onClick={() => setShowNav(false)}>
+                <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
 
             <NavLink 
-            activeclassname="active"
-            className="about-link"
-            to="/about"
-            onClick={() => setShowNav(false)}>
-            <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+                activeclassname="active"
+                className="about-link"
+                to="/about"
+                onClick={() => setShowNav(false)}>
+                <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             </NavLink>
 
             <NavLink
-            activeclassname="active"
-            className="portfolio-link"
-            to="/portfolio"
-            onClick={() => setShowNav(false)}
-            >
+                activeclassname="active"
+                className="portfolio-link"
+                to="/portfolio"
+                onClick={() => setShowNav(false)}
+                >
             <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
             </NavLink>
 
             <NavLink
-            activeclassname="active"
-            className="contact-link"
-            to="/contact"
-            onClick={() => setShowNav(false)}
-            >
+                activeclassname="active"
+                className="contact-link"
+                to="/contact"
+                onClick={() => setShowNav(false)}
+                >
             <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+            </NavLink>
+
+            <NavLink 
+                exact="true" 
+                activeclassname="active" 
+                className="resume-link" 
+                to="/resume"
+                onClick={() => setShowNav(false)}
+            >
+
+                <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
             </NavLink>
 
             <FontAwesomeIcon 
@@ -106,28 +116,7 @@ import {
                 />
             </a>
             </li>
-            {/* <li>
-            <a
-                href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
-                rel="noreferrer"
-                target="_blank"
-            >
-                <FontAwesomeIcon
-                icon={faYoutube}
-                color="#4d4d4e"
-                className="anchor-icon"
-                />
-            </a>
-            </li>
-            <li>
-            <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-                <FontAwesomeIcon
-                icon={faSkype}
-                color="#4d4d4e"
-                className="anchor-icon"
-                />
-            </a>
-            </li> */}
+            
         </ul>
         <FontAwesomeIcon 
             onClick={() => setShowNav(true)}
@@ -135,6 +124,9 @@ import {
             color="#ffd700"
             size="3x"
             className='hamburger-icon' />
+
+        
+
         </div>
     )
 }

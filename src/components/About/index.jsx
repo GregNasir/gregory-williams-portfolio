@@ -10,7 +10,9 @@ import {
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './index.scss'
+import profilePic from './images/Greg-linkedIn-pic.jpeg';
+import './index.scss';
+
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -24,6 +26,22 @@ const About = () => {
     return (
         <>
         <div className="container about-page">
+
+            <div className='profile-pic'>
+            
+                <img
+                    src={profilePic}
+                    alt="User Profile"
+                    style={{
+                    width: '150px', // Set the width as needed
+                    height: '150px', // Set the height as needed
+                    borderRadius: '50%', // Makes it a circular profile picture
+                    }}
+                />
+            </div>
+
+            
+
             <div className="text-zone">
             <h1>
                 <AnimatedLetters
@@ -75,6 +93,9 @@ const About = () => {
                 </div>
             </div>
             </div>
+            <footer className="footer">
+                  <h3>Portfolio &copy; COPYRIGHT 2023 Gregory Williams.</h3>
+            </footer>
         </div>
         {/* <Loader type="pacman" /> */}
         <Loader type="ball-clip-rotate-pulse" />

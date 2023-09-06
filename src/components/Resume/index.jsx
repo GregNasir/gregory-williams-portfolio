@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
 
 const Resume = () => {
@@ -29,6 +29,9 @@ const Resume = () => {
             </div>
             </div>
 
+        <footer className="footer">
+            <h3>Portfolio &copy; COPYRIGHT 2023 Gregory Williams.</h3>
+        </footer>
         
         </div>
         {/* <Loader type="pacman" /> */}
