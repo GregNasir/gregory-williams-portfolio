@@ -30,7 +30,8 @@ become, one of my favorite libraries.
   
 * <a href="https://glacial-thicket-98751-ead1051b20e4.herokuapp.com/login">notetakerzzz app</a>
 
-<img width="1950" alt="Productivity-Pal-screen-shot" src="https://github.com/GregNasir/productivity-pal/assets/63434657/4abe273d-0dbc-4978-afd0-c4dff407f25a">
+<img width="1439" alt="Portfolio screenshot" src="https://github.com/GregNasir/gregory-williams-portfolio/assets/63434657/053e58e4-a1c0-47f0-954e-deea35b6dc8d">
+
 
 
 ## Installation
