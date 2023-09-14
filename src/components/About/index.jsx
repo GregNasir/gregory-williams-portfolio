@@ -57,7 +57,7 @@ const About = () => {
                 </h1>
                 <p id='about-text'>
                     Technology excites me! Seeing a project go from a simple idea, to wire frame, then taking
-                    the leap to initiate code, and seeing the product take shape, has always been wonderful experience. 
+                    the leap to initiate code, and seeing the product take shape, has always been a wonderful experience. 
                     As a certified Full-Stack Developer, using and learning new methods to create unique and pleasurable 
                     experiences for others, motivates my eagerness to commit myself to any opportunities in which
                     I am involved. 
@@ -65,8 +65,8 @@ const About = () => {
                     <br/>
                     With the knowledge I have garnered and my ambition to become a great developer, I am open to 
                     roles, where I can hone and excercise my tech development capabilities. As a team player, 
-                    I enjoy brainstorming with peers, to come up with the best solutions and codes, to ultimately 
-                    achieve our projects goals.
+                    I enjoy brainstorming with peers, to come up with the best solutions and codes, that will ultimately 
+                    achieve our project`s goals.
                     <br/>
                     <br/>
                     I am an avid sports fan, and a big supporter of Chelsea Football Club. Fun fact: this portfolio 
