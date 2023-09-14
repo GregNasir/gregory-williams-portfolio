@@ -29,9 +29,9 @@ const Resume = () => {
             </div>
             </div>
 
-        <footer className="footer">
+        {/* <footer className="footer">
             <h3>Portfolio &copy; COPYRIGHT 2023 Gregory Williams.</h3>
-        </footer>
+        </footer> */}
         
         </div>
         {/* <Loader type="pacman" /> */}

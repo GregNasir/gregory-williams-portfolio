@@ -9,21 +9,21 @@ import './index.scss'
 
 const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const [inputValue, setInputValue] = useState('');
-    const [isFieldFocused, setIsFieldFocused] = useState(false);
+    // const [inputValue, setInputValue] = useState('');
+    // const [isFieldFocused, setIsFieldFocused] = useState(false);
     const form = useRef()
 
-    const handleInputChange = (e) => {
-        setInputValue(e.target.value);
-        };
+    // const handleInputChange = (e) => {
+    //     setInputValue(e.target.value);
+    //     };
     
-      const handleFieldFocus = () => {
-        setIsFieldFocused(true);
-        };
+    //   const handleFieldFocus = () => {
+    //     setIsFieldFocused(true);
+    //     };
     
-      const handleFieldBlur = () => {
-        setIsFieldFocused(false);
-        };
+    //   const handleFieldBlur = () => {
+    //     setIsFieldFocused(false);
+    //     };
 
     useEffect(() => {
         setTimeout(() => {
@@ -75,10 +75,10 @@ const Contact = () => {
                         type="email"
                         name="email"
                         required
-                        value={inputValue}
-                        onChange={handleInputChange}
-                        onFocus={handleFieldFocus}
-                        onBlur={handleFieldBlur}
+                        // value={inputValue}
+                        // onChange={handleInputChange}
+                        // onFocus={handleFieldFocus}
+                        // onBlur={handleFieldBlur}
                     />
                     </li>
                     <li>
@@ -87,10 +87,10 @@ const Contact = () => {
                         type="text"
                         name="subject"
                         required
-                        value={inputValue}
-                        onChange={handleInputChange}
-                        onFocus={handleFieldFocus}
-                        onBlur={handleFieldBlur}
+                        // value={inputValue}
+                        // onChange={handleInputChange}
+                        // onFocus={handleFieldFocus}
+                        // onBlur={handleFieldBlur}
                     />
                     </li>
                     <li>
@@ -104,17 +104,17 @@ const Contact = () => {
                     <input type="submit" className="flat-button" value="SEND"
                     
                     // value={inputValue}
-                    onChange={handleInputChange}
-                    onFocus={handleFieldFocus}
-                    onBlur={handleFieldBlur}
+                    // onChange={handleInputChange}
+                    // onFocus={handleFieldFocus}
+                    // onBlur={handleFieldBlur}
                     
                     
                     />
                     </li>
                 </ul>
-                {isFieldFocused && !inputValue && (
+                {/* {isFieldFocused && !inputValue && (
                 <div className="notification">This field is required.</div>
-                )}
+                )} */}
 
 
                 </form>
@@ -140,9 +140,9 @@ const Contact = () => {
             </MapContainer>
             </div> */}
 
-        <footer className="footer">
+        {/* <footer className="footer">
             <h3>Portfolio &copy; COPYRIGHT 2023 Gregory Williams.</h3>
-        </footer>
+        </footer> */}
         </div>
         {/* <Loader type="pacman" /> */}
         <Loader type="ball-clip-rotate-pulse" />

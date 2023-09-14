@@ -1,5 +1,7 @@
 html {
   font-size: 62.5%;
+  height: 100vh;
+  overflow-y:auto;
 }
 
 body {

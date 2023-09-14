@@ -45,11 +45,12 @@ const Portfolio = () => {
             
             <div id="home-magicwall" className="fake-magicwall">
                 <ul>
-                    <li>
-                    
-                        <div className="magic-wall_item lazyload"></div>
+                    <li className='baseball'>
+                    <p className='hello'>HELLO</p>
+                        <div className="magic-wall_item lazyload "></div>
                             <img src={BaseballO} alt='image'></img>
-                        <div className="hover-content"></div>
+                        <div className="hover-content">
+                            </div>
                         <a href='https://jako0320.github.io/baseball_statsandodds/' className='colorbox'></a>
                     </li>
                     <li>
@@ -86,9 +87,9 @@ const Portfolio = () => {
                 </ul>
             </div>
         </div>
-        <footer className="footer">
+        {/* <footer className="footer">
             <h3>Portfolio &copy; COPYRIGHT 2023 Gregory Williams.</h3>
-        </footer>
+        </footer> */}
             
         </div>
         {/* <Loader type="pacman" /> */}

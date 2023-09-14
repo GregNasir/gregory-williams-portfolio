@@ -32,21 +32,21 @@ const Home = () => {
                 <span className={`${letterClass} _14`}>'m,</span> 
                 {/* <img src={LogoTitle} alt="developer" /> */}
                 <AnimatedLetters 
-                  letterClass={letterClass}
-                  strArray={nameArray}
-                  idx={15} />
+                    letterClass={letterClass}
+                    strArray={nameArray}
+                    idx={15} />
                 <br />
                 <AnimatedLetters 
-                  letterClass={letterClass}
-                  strArray={jobArray}
-                  idx={22} />
+                    letterClass={letterClass}
+                    strArray={jobArray}
+                    idx={22} />
                 </h1>
                 <h2>Full-Stack Developer / JavaScript/ React/ MySQL/ NoSQL/ HTML/ CSS</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>
                 {/* <Logo /> */}
 
-                <footer className="footer">
+                
 
                     {/* <ul className='linkedin-github'>
                 <li>
@@ -77,10 +77,11 @@ const Home = () => {
                 </li>
                 
             </ul> */}
+                {/* <footer className="footer"></footer> */}
 
-                  <h3>Portfolio &copy; COPYRIGHT 2023 Gregory Williams.</h3>
-                  
-                </footer>
+                {/* <h3>Portfolio &copy; COPYRIGHT 2023 Gregory Williams.</h3>
+                
+                </footer> */}
                 
         </div>
 

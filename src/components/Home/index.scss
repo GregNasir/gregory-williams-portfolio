@@ -6,9 +6,9 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 50%;
+        top: 40%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 45%;
         max-height: 90%;
         vertical-align: middle;
         
@@ -93,30 +93,31 @@
         }
     }
 
-.home-page .footer {
-    color: #fff;
-    text-align: center;
-    margin-right: 1080px;
-    // display: flex;
-    // justify-content: center;
-    // margin-bottom: 1000px;
-    // background-color: red
-    // margin-top: -50px;  
-    // display: flex; 
-    // flex-direction: column; 
-}
+// .home-page .footer {
+//     color: #fff;
+//     text-align: center;
+//     margin-right: 1080px;
+//     color: red;
+//     // display: flex;
+//     // justify-content: center;
+//     // margin-bottom: 1000px;
+//     // background-color: red
+//     // margin-top: -50px;  
+//     // display: flex; 
+//     // flex-direction: column; 
+// }
 
-.home-page .footer ul {
-    // color: #fff;
-    // text-align: center;
-    // width: 100%;
-    // margin-right: 1080px;
-    // display: flex;
-    // justify-content: center;
-    font-size: 22px;
-    // background-color: red
+// .home-page .footer ul {
+//     // color: #fff;
+//     // text-align: center;
+//     // width: 100%;
+//     // margin-right: 1080px;
+//     // display: flex;
+//     // justify-content: center;
+//     font-size: 22px;
+//     // background-color: red
         
-}
+// }
 
 
 
@@ -134,22 +135,22 @@
     
     
     
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 1200px) {
 
 
         .home-page {
             display: flex;
             justify-content: center;
             margin-left: auto;
-            margin-top: 200px;
+            margin-right: auto;
         }
 
 
-        .tags,
-        .home-page h1:before,
-        .home-page h1:after {
-        display: none;
-        }
+        // .tags,
+        // .home-page h1:before,
+        // .home-page h1:after {
+        // display: none;
+        // }
     
         .home-page .text-zone {
         position: initial;

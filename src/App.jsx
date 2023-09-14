@@ -10,6 +10,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <Route path='resume' element={<Resume/>} />
         </Route>
       </Routes>
+      <Footer/>
     </>
   )
 }

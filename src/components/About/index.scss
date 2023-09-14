@@ -1,3 +1,9 @@
+.about-page {
+    height: 100vh;
+    // overflow-y:auto
+}
+
+
 .stage-cube-cont {
     width: 50%;
     height: 100%;
@@ -86,15 +92,31 @@
     }
 
     .text-zone {
-        margin-top: 100px;
+        // margin-top: 30px;
     }
 
 
     .about-page .profile-pic {
-        // background-color: red;
-        margin-left: 260px;
+        background-color: red;
+        margin-left: 10px;
         // margin-bottom: 200px;
     }
+
+// .footer {
+//     background-color: red;
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     color: white;
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 600px;
+//     // margin-top: 800px;
+// }
+
+// .footer-text {
+//     margin-bottom: -300px;
+// }
 
 
     @media screen and (max-width: 1200px) {
@@ -115,8 +137,8 @@
         }
     }
 
-    .profile-pic {
+    .about-page .profile-pic {
         // background-color: red;
-        margin-left: 20px;
+        margin-left: 10px;
         // margin-bottom: 200px;
     }
