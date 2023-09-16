@@ -64,8 +64,8 @@ const About = () => {
                     <br/>
                     <br/>
                     With the knowledge I have garnered and my ambition to become a great developer, I am open to 
-                    roles, where I can hone and excercise my tech development capabilities. As a team player, 
-                    I enjoy brainstorming with peers, to come up with the best solutions and codes, that will ultimately 
+                    roles, where I can hone and excercise my tech development capabilities. As a team player  
+                    I enjoy brainstorming with peers to come up with the best solutions and codes, that will ultimately 
                     achieve our project`s goals.
                     <br/>
                     <br/>

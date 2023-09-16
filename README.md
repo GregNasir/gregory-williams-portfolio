@@ -26,9 +26,9 @@ Creating this portfolio exposed me the many features and tools available in Java
 become, one of my favorite libraries.
 
 ## Repository and deployed site
-* <a href="https://github.com/GregNasir/gregory-williams-portfolio">Gregory Williams Portfolio</a>
+* <a href="https://github.com/GregNasir/gregory-williams-portfolio">Portfolio Repository</a>
   
-* <a href="https://glacial-thicket-98751-ead1051b20e4.herokuapp.com/login">notetakerzzz app</a>
+* <a href="https://gregory-williams-portfolio.netlify.app/">Gregory Williams Portfolio</a>
 
 <img width="1439" alt="Portfolio screenshot" src="https://github.com/GregNasir/gregory-williams-portfolio/assets/63434657/053e58e4-a1c0-47f0-954e-deea35b6dc8d">
 
@@ -36,7 +36,7 @@ become, one of my favorite libraries.
 
 ## Installation
 
-Please visit the app [here](https://productivity-pal-a83731041d87.herokuapp.com/) and visit the repo [here](https://github.com/GregNasir/gregory-williams-portfolio)
+Please visit the app [here](https://gregory-williams-portfolio.netlify.app/) and visit the repo [here](https://github.com/GregNasir/gregory-williams-portfolio)
 
 ## Usage
 

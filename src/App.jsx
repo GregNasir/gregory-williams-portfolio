@@ -9,8 +9,9 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+// import Projects from './components/Projects/Projects';
 import Resume from './components/Resume';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 function App() {
 
@@ -24,11 +25,12 @@ function App() {
           <Route path='home' element={<Home/>} />
           <Route path='about' element={<About/>} />
           <Route path='portfolio' element={<Portfolio/>} />
+          {/* <Route path='projects' element={<Projects/>} /> */}
           <Route path='contact' element={<Contact/>} />
           <Route path='resume' element={<Resume/>} />
         </Route>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

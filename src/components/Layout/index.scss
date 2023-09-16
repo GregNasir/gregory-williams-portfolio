@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     // margin-left: 100px;
+    
     }
     
     .top-tags {
@@ -119,17 +120,26 @@
     }
 
     // Footer {
-    //     // background-color: red;
-    //     margin-left: auto;
-    //     margin-right: auto;
-    //     // padding-top: 1050px;
+    //     background-color: red;
+    //     // margin-left: 500px;
+    //     // margin-right: auto;
+    //     margin-top: auto;
+    //     color: #fff;
+    //     text-align: center;
     // }
+
+    .App {
+        height: 100%;
+    }
 
     // .App {
     //     display: block;
     // }
 
-    
+    // Footer {
+    //     margin-top: 1000px;
+    //   }
+
     
     @media screen and (max-width: 1200px) {
         .page {

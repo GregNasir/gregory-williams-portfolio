@@ -33,7 +33,7 @@ const Portfolio = () => {
                 idx={15}
                 />
             </h1>
-            <p>
+            <p className='portfolio-p'>
                 Below please find a some of the projects, I have worked on individually, 
                 or as part of a group of developers. My GitHub repository can also
                 be accessed <a href="https://github.com/GregNasir" className='github-link'>here</a>
@@ -46,38 +46,47 @@ const Portfolio = () => {
             <div id="home-magicwall" className="fake-magicwall">
                 <ul>
                     <li className='baseball'>
-                    <p className='hello'>HELLO</p>
+                    <p className='hello'><a href="https://jako0320.github.io/baseball_statsandodds/" target="_blank" rel="noopener noreferrer">Baseball Stats and Odds</a></p>
+                    
+                    {/* <p className='hello'><a href="https://github.com/GregNasir/baseball_statsandodds" target="_blank" rel="noopener noreferrer">Project Repo </a></p> */}
                         <div className="magic-wall_item lazyload "></div>
                             <img src={BaseballO} alt='image'></img>
                         <div className="hover-content">
                             </div>
                         <a href='https://jako0320.github.io/baseball_statsandodds/' className='colorbox'></a>
                     </li>
-                    <li>
+                    
+                    <li className='baseball2'>
+                    <p className='hello'><a href="https://glacial-thicket-98751-ead1051b20e4.herokuapp.com/login" target="_blank" rel="noopener noreferrer">Productivity Pal</a></p>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={ProdPal} alt='image'></img>
                         <div className="hover-content"></div>
                         <a href='https://glacial-thicket-98751-ead1051b20e4.herokuapp.com/login' className='colorbox'></a>
                     </li>
-                    <li>
+                
+                    <li className='baseball3'>
+                    <p className='hello'><a href="https://notetakerzzz-f979f98b76f3.herokuapp.com/" target="_blank" rel="noopener noreferrer">Notetakerzz</a></p>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={NoteTaker} alt='image'></img>
                         <div className="hover-content"></div>
                         <a href='https://notetakerzzz-f979f98b76f3.herokuapp.com/' className='colorbox'></a>
                     </li>
-                    <li>
+                    <li className='baseball4'>
+                        <p className='hello'><a href="https://inspire-tech-blog-9d94a91a774d.herokuapp.com/" target="_blank" rel="noopener noreferrer">Inspire Tech Blog</a></p>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={TechBlog} alt='image'></img>
                         <div className="hover-content"></div>
                         <a href='https://inspire-tech-blog-9d94a91a774d.herokuapp.com/' className='colorbox'></a>
                     </li>
-                    <li>
+                    <li className='baseball5'>
+                        <p className='hello'><a href="https://gregnasir.github.io/weather-dashboard/" target="_blank" rel="noopener noreferrer">Weather Dashboard</a></p>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={WeatherDash} alt='image'></img>
                         <div className="hover-content"></div>
                         <a href='https://gregnasir.github.io/weather-dashboard/' className='colorbox'></a>
                     </li>
-                    <li>
+                    <li className='baseball6'>
+                        <p className='hello'><a href="https://gregnasir.github.io/work-day-scheduler/" target="_blank" rel="noopener noreferrer">Work Day Scheduler</a></p>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={WorkDay} alt='image'></img>
                         <div className="hover-content"></div>

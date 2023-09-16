@@ -1,11 +1,13 @@
 .nav-bar {
     background: #022c43;
     width: 100px;
+    // height: 100vh;
     height: 100%;
     position: absolute;
     top: 0;
     z-index: 3;
     min-height: 500px;
+    overflow: auto;
     
 
     .logo {

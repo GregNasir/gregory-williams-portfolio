@@ -12,7 +12,7 @@ const Layout = () => {
 
                 <Outlet />
 
-               
+
 
                 {/* <span className='tags bottom-tags>'> */}
                 &lt;body&gt;
@@ -22,8 +22,9 @@ const Layout = () => {
             
                 {/* <span className='bottom-tag-html'>{"</html>"}</span> */}
                 {/* </span> */}
+                <Footer />
             </div>
-            {/* <Footer /> */}
+            
         </div>
         
         

@@ -61,7 +61,7 @@ const Contact = () => {
                 />
             </h1>
             <p id='contact-text'>
-                For any inquires in regard to web development.
+                For any inquires in regards to web development.
             </p>
             <div className="contact-form">
                 <form ref={form} onSubmit={sendEmail}>
