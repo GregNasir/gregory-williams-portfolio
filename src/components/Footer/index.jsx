@@ -10,7 +10,10 @@ const Footer = () => {
                 GitHub |
             </a>
             <a href="https://www.linkedin.com/in/gregory-o-williams-22361b1b4/" target="_blank" rel="noopener noreferrer">
-                | LinkedIn
+                | LinkedIn |
+            </a>
+            <a href="https://www.youtube.com/channel/UC7BITbEmT3TvLeL-2wAet7w" target="_blank" rel="noopener noreferrer">
+                | Youtube
             </a>
             </h1>
             <h3 className='footer-text'>Portfolio &copy; COPYRIGHT 2023 Gregory Williams</h3>
