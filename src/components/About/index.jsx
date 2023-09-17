@@ -59,7 +59,7 @@ const About = () => {
                     Technology excites me! Seeing a project go from a simple idea, to wire frame, then taking
                     the leap to initiate code, and seeing the product take shape, has always been a wonderful experience. 
                     As a certified Full-Stack Developer, using and learning new methods to create unique and pleasurable 
-                    experiences for others, motivates my eagerness to commit myself to any opportunities in which
+                    experiences for others motivates my eagerness to commit myself to any opportunities in which
                     I am involved. 
                     <br/>
                     <br/>
