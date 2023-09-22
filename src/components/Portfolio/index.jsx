@@ -79,7 +79,7 @@ const Portfolio = () => {
                         <a href='https://inspire-tech-blog-9d94a91a774d.herokuapp.com/' className='colorbox'></a>
                     </li>
                     <li className='baseball5'>
-                        <p className='hello'><a href="https://happenhubsearch-a6304aac1562.herokuapp.com/" target="_blank" rel="noopener noreferrer">Weather Dashboard</a></p>
+                        <p className='hello'><a href="https://happenhubsearch-a6304aac1562.herokuapp.com/" target="_blank" rel="noopener noreferrer">HappenHub</a></p>
                         <div className="magic-wall_item lazyload"></div>
                         <img src={WeatherDash} alt='image'></img>
                         <div className="hover-content"></div>
