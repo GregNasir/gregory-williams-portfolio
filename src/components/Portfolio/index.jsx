@@ -6,7 +6,7 @@ import BaseballO from '../../assets/images/baseball-stats-and-odds.png';
 import ProdPal from '../../assets/images/Productivity-Pal.png';
 import NoteTaker from '../../assets/images/note-taker.png';
 import TechBlog from '../../assets/images/Inspire-tech-blog.png';
-import WeatherDash from '../../assets/images/weather-dashboard.png';
+import HappenHub from '../../assets/images/HappenHub-Screenshot.png';
 import WorkDay from '../../assets/images/work-day-scheduler.png';
 import './index.scss'
 
@@ -81,7 +81,7 @@ const Portfolio = () => {
                     <li className='baseball5'>
                         <p className='hello'><a href="https://happenhubsearch-a6304aac1562.herokuapp.com/" target="_blank" rel="noopener noreferrer">HappenHub</a></p>
                         <div className="magic-wall_item lazyload"></div>
-                        <img src={WeatherDash} alt='image'></img>
+                        <img src={HappenHub} alt='image'></img>
                         <div className="hover-content"></div>
                         <a href='https://happenhubsearch-a6304aac1562.herokuapp.com/' className='colorbox'></a>
                     </li>
