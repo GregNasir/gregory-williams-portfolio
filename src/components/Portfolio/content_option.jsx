@@ -16,37 +16,37 @@ const dataportfolio =
 
     [{
         img: BaseballO,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Check MLB stats and odds.",
         link: "https://jako0320.github.io/baseball_statsandodds/",
         link2: "https://github.com/GregNasir/baseball_statsandodds",
     },
     {
         img: ProdPal,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Make plans and track their progess",
         link: "https://glacial-thicket-98751-ead1051b20e4.herokuapp.com/login",
         link2: "https://github.com/GregNasir/productivity-pal",
     },
     {
         img: HappenHub,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Find your desired events you would like to attend.",
         link: "https://happenhubsearch-a6304aac1562.herokuapp.com/",
         link2: "https://github.com/GregNasir/happenhub",
     },
     {
         img: NoteTaker,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Record important notes",
         link: "https://notetakerzzz-f979f98b76f3.herokuapp.com/",
         link2: "https://github.com/GregNasir/my-daily-note-taker",
     },
     {
         img: TechBlog,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Read about tech industry happenings and leave your comments",
         link: "https://inspire-tech-blog-9d94a91a774d.herokuapp.com/",
         link2: "https://github.com/GregNasir/inspire-tech-blog",
     },
     {
         img: WorkDay,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Make your work day schedule",
         link: "https://gregnasir.github.io/work-day-scheduler/",
         link2: "https://github.com/GregNasir/work-day-scheduler",
     },
