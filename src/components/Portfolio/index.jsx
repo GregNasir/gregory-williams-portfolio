@@ -141,7 +141,11 @@ const Portfolio = () => {
                     <p><a href={data.link}>view project</a></p>
                     
                     <a href={data.link2}>view repository</a>
-                    
+
+                    <div>
+                    <p>{data.description2}</p>
+                    </div>
+
                     </div>
                 </div>
                 );
