@@ -63,9 +63,11 @@ const About = () => {
                     I am involved. 
                     <br/>
                     <br/>
-                    With the knowledge I have garnered and my ambition to become a great developer, I am open to 
-                    roles, where I can hone and exercise my tech development capabilities. As a team player  
-                    I enjoy brainstorming with peers to come up with the best solutions and codes, that will ultimately 
+                    As a graduate of the Columbia Engineering Full Stack Web Development Bootcamp, with a focus in JavaScript, 
+                    I am proficient in many of its frameworks and libraries. These include but are not limited to, React, node,
+                    squelize, graphQl, SQL, noSql, along with HTML and CSS3. Garnering these skills has helped me to create 
+                    several dynamic and responsive projects. I consider myself a team player who enjoys brainstorming with 
+                    fellow developers to come up with the best solutions and code that will ultimately 
                     achieve our project`s goals.
                     <br/>
                     <br/>
