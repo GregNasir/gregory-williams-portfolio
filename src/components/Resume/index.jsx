@@ -24,8 +24,14 @@ const Resume = () => {
                 idx={15}
                 />
             </h1>
-            <div>
-            <iframe src="https://drive.google.com/file/d/1PBy__uWnjbYoNV0tApjUC4Menzbiw9IB/preview" width="640" height="880" allow="autoplay"></iframe>
+            <div >
+            {/* <iframe src="https://drive.google.com/file/d/1PBy__uWnjbYoNV0tApjUC4Menzbiw9IB/preview" width="640" height="880" allow="autoplay"></iframe> */}
+            <a href="https://docs.google.com/document/d/1-xV7URWNitDMsW0OTYlKzF7-TjdU04W4hF2pdO_3P4s/export?format=pdf"  >
+                <iframe className='resume-download' src="https://docs.google.com/file/d/1-xV7URWNitDMsW0OTYlKzF7-TjdU04W4hF2pdO_3P4s/preview" 
+                width="640" height="880" allow="autoplay"></iframe>
+            </a>
+
+            {/* <iframe src="https://docs.google.com/document/d/e/2PACX-1vQ4GxK-JLETeHNqHIdbcOcOCQG4xxp1k-evFkcXRqQOix6mycPdtg3peE2h-aoNLDqxHT3vO7jAacrb/pub?embedded=true" width="640" height="880" allow="autoplay"></iframe> */}
             
             </div>
             </div>
