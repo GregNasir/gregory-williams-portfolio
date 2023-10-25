@@ -65,7 +65,7 @@ const About = () => {
                     <br/>
                     As a graduate of the Columbia Engineering Full Stack Web Development Bootcamp, with a focus in JavaScript, 
                     I am proficient in many of its frameworks and libraries. These include but are not limited to, React, node,
-                    squelize, graphQl, SQL, noSql, along with HTML and CSS3. Garnering these skills has helped me to create 
+                    sequelize, graphQl, SQL, noSql, along with HTML and CSS3. Garnering these skills has helped me to create 
                     several dynamic and responsive projects. I consider myself a team player who enjoys brainstorming with 
                     fellow developers to come up with the best solutions and code that will ultimately 
                     achieve our project`s goals.
