@@ -1,8 +1,8 @@
 import BaseballO from '../../assets/images/baseball-stats-and-odds.png';
 import ProdPal from '../../assets/images/Productivity-Pal.png';
-import NoteTaker from '../../assets/images/note-taker.png';
+import CodeQuiz from '../../assets/images/Code-quiz -screenshot.png';
 import TechBlog from '../../assets/images/Inspire-tech-blog.png';
-import HappenHub from '../../assets/images/HappenHub-Screenshot.png';
+import WeatherDash from '../../assets/images/Weather-screenshot.png'
 import WorkDay from '../../assets/images/work-day-scheduler.png';
 
 
@@ -29,19 +29,33 @@ const dataportfolio =
         link2: "https://github.com/GregNasir/productivity-pal",
     },
     {
-        img: HappenHub,
-        description: "Happenhub is a MERN full-stack project. Written with JavaScript, it Utilizes several tools to achieve full functionality.",
-        description2: "JavaScript/MERN/NSql/graphQL/CSS",
-        link: "https://happenhubsearch-a6304aac1562.herokuapp.com/",
-        link2: "https://github.com/GregNasir/happenhub",
+        img: WeatherDash,
+        description: "This weather dashboard was created to allow users to check the current and five day forecast of any city. Several tools were utilaized.",
+        description2: "JavaScript/HTMLCSS",
+        link: "https://gregnasir.github.io/weather-dashboard/",
+        link2: "https://github.com/GregNasir/weather-dashboard",
     },
+    // {
+    //     img: HappenHub,
+    //     description: "Happenhub is a MERN full-stack project. Written with JavaScript, it Utilizes several tools to achieve full functionality.",
+    //     description2: "JavaScript/MERN/NSql/graphQL/CSS",
+    //     link: "https://happenhubsearch-a6304aac1562.herokuapp.com/",
+    //     link2: "https://github.com/GregNasir/happenhub",
+    // },
     {
-        img: NoteTaker,
-        description: "This note taker application allows users to add and save notes as they so please. The app was created using Express, uses a local database to store files",
+        img: CodeQuiz,
+        description: "This code quiz was created to test users basic knowledge on coding elements, in regard to Javascript and its background.",
         description2: "JavaScript/sequelize/MySql/HTML/CSS",
-        link: "https://notetakerzzz-f979f98b76f3.herokuapp.com/",
-        link2: "https://github.com/GregNasir/my-daily-note-taker",
+        link: "https://gregnasir.github.io/code-quiz/",
+        link2: "https://github.com/GregNasir/code-quiz",
     },
+    // {
+    //     img: NoteTaker,
+    //     description: "This note taker application allows users to add and save notes as they so please. The app was created using Express, uses a local database to store files",
+    //     description2: "JavaScript/sequelize/MySql/HTML/CSS",
+    //     link: "https://notetakerzzz-f979f98b76f3.herokuapp.com/",
+    //     link2: "https://github.com/GregNasir/my-daily-note-taker",
+    // },
     {
         img: TechBlog,
         description: "Inspire Tech Blog provides readers with insights on the ins and outs of web development.",
